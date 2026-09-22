@@ -14,7 +14,7 @@ int main(void){
   if(ret == 0){ // child
     printf("Child process:\n");
     printf("pid=%d\n", getpid());
-    //printf("ppid=%d\n", getppid());
+    printf("ppid=%d\n", getppid());
 
   } 
   else {// parent
